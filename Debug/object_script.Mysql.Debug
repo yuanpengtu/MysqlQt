@@ -1,0 +1,15 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\login.o
+./debug\registerwin.o
+./debug\confedit.o
+./debug\editpass.o
+./debug\qrc_resource.o
+./debug\qrc_editpassword.o
+./debug\moc_mainwindow.o
+./debug\moc_login.o
+./debug\moc_registerwin.o
+./debug\moc_confedit.o
+./debug\moc_editpass.o
+);

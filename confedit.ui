@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConfEdit</class>
+ <widget class="QWidget" name="ConfEdit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>474</width>
+    <height>333</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>411</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>信息</string>
+   </property>
+   <widget class="QComboBox" name="comboBoxStyle">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>40</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>风格1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>风格2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>风格3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>风格4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>风格5</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>背景风格：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>字体：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxFont">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>90</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>微软雅黑</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>华文中宋</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>方正舒体</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>楷体</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>幼圆</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>性别：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxGender">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>140</y>
+      <width>87</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>男</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>女</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>220</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>提交修改</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
